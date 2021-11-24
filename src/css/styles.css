@@ -1,0 +1,17 @@
+body {
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    min-width: 480px;
+    scrollbar-base-color: #65768D;
+    scrollbar-arrow-color: #65768D;
+    scrollbar-color: #65768D #FFF;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+@media only screen and (max-width: 559px) {
+    body {
+        min-width: 360px;
+    }
+}
